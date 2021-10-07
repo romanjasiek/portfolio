@@ -12,29 +12,9 @@ const AboutMe = () => {
         <div className="container">
             <div className="about__slideshow">
                 <img className="about__img" src={RJ1} alt="Roman Jasiek" />
-                {/* <picture>
-                    <source sizes="(max-width: 500px) 150px, (max-width: 770px) 200px, 460px" srcset="dist/img/about/rj.150w.webp 150w, dist/img/about/rj.300w.webp 300w, dist/img/about/rj.600w.webp 600w, dist/img/about/rj.900w.webp 900w, dist/img/about/rj.1200w.webp 1200w" type="image/webp" />
-                    <source sizes="(max-width: 500px) 150px, (max-width: 770px) 200px, 460px" srcset="dist/img/about/rj.150w.jpeg 150w, dist/img/about/rj.300w.jpeg 300w, dist/img/about/rj.600w.jpeg 600w, dist/img/about/rj.900w.jpeg 900w, dist/img/about/rj.1200w.jpeg 1200w" />
-                    <img class="about__img" src="img/about/rj.jpg" alt="" />
-                </picture> */}
                 <img className="about__img about__img--slideshow about__img--slideshow-1" src={RJ2} alt="Roman Jasiek" />
-                {/* <picture>
-                    <source sizes="(max-width: 500px) 150px, (max-width: 770px) 200px, 460px" srcset="dist/img/about/rj2.150w.webp 150w, dist/img/about/rj2.300w.webp 300w, dist/img/about/rj2.600w.webp 600w, dist/img/about/rj2.900w.webp 900w, dist/img/about/rj2.1200w.webp 1200w" type="image/webp" />
-                    <source sizes="(max-width: 500px) 150px, (max-width: 770px) 200px, 460px" srcset="dist/img/about/rj2.jpeg 150w, dist/img/about/rj2.300w.jpeg 300w, dist/img/about/rj2.600w.jpeg 600w, dist/img/about/rj2.900w.jpeg 900w, dist/img/about/rj2.1200w.jpeg 1200w" />
-                    <img class="about__img about__img--slideshow about__img--slideshow-1" src="img/about/rj2.jpg" alt="" />
-                </picture> */}
                 <img className="about__img about__img--slideshow about__img--slideshow-2" src={RJ3} alt="Roman Jasiek" />
-                {/* <picture>
-                    <source sizes="(max-width: 500px) 150px, (max-width: 770px) 200px, 460px" srcset="dist/img/about/rj3.150w.webp 150w, dist/img/about/rj3.300w.webp 300w, dist/img/about/rj3.600w.webp 600w, dist/img/about/rj3.900w.webp 900w, dist/img/about/rj3.1200w.webp 1200w" type="image/webp" />
-                    <source sizes="(max-width: 500px) 150px, (max-width: 770px) 200px, 460px" srcset="dist/img/about/rj3.150w.jpeg 150w, dist/img/about/rj3.300w.jpeg 300w, dist/img/about/rj3.600w.jpeg 600w, dist/img/about/rj3.900w.jpeg 900w, dist/img/about/rj3.1200w.jpeg 1200w" />
-                    <img class="about__img about__img--slideshow about__img--slideshow-2" src="img/about/rj3.jpg" alt="" />
-                </picture> */}
                 <img className="about__img about__img--slideshow about__img--slideshow-3" src={RJ4} alt="Roman Jasiek" />
-                {/* <picture>
-                    <source sizes="(max-width: 500px) 150px, (max-width: 770px) 200px, 460px" srcset="dist/img/about/rj4.150w.webp 150w, dist/img/about/rj4.300w.webp 300w, dist/img/about/rj4.600w.webp 600w, dist/img/about/rj4.900w.webp 900w, dist/img/about/rj4.1200w.webp 1200w" type="image/webp" />
-                    <source sizes="(max-width: 500px) 150px, (max-width: 770px) 200px, 460px" srcset="dist/img/about/rj4.150w.jpeg 150w, dist/img/about/rj4.300w.jpeg 300w, dist/img/about/rj4.600w.jpeg 600w, dist/img/about/rj4.900w.webp 900w, dist/img/about/rj4.1200w.jpeg 1200w" />
-                    <img class="about__img about__img--slideshow about__img--slideshow-3" src="img/about/rj4.jpg" alt="" />
-                </picture> */}
             </div>
             <div className="about__text">
                 <h3 className="about__heading">About Me</h3>
