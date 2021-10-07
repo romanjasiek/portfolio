@@ -1,0 +1,37 @@
+@use "abstracts";
+@use "aboutme";
+@use "base";
+@use "bootstrap";
+@use "button";
+@use "contactmodal";
+@use "container";
+@use "footer";
+@use "fonts";
+@use "form";
+@use "gallery";
+@use "header";
+@use "icon";
+@use "mixins";
+@use "moreaboutme";
+@use "moretech";
+@use "motivation";
+@use "sidenav";
+@use "skills";
+@use "story";
+@use "technologies";
+
+
+input,
+select {
+  font-family: inherit;
+}
+
+::-moz-selection {
+  color: white;
+  background-color: rgba(85, 85, 85, 0.8);
+}
+
+::selection {
+  color: white;
+  background-color: rgba(85, 85, 85, 0.8);
+}

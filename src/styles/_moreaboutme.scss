@@ -1,0 +1,49 @@
+@use "abstracts" as *;
+@use "fonts" as *;
+
+.auto-grid {
+    background-color: #fefefe;
+    color: #555555;
+    --auto-grid-min-size: 32rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 2rem;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  .auto-grid::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+  @media (max-width: 36em) {
+    .auto-grid {
+      padding: 0 1rem;
+    }
+  }
+  
+  .auto-grid li {
+    padding-top: 1.5rem;
+    list-style-type: none;
+  }
+  
+  .auto-grid li h4 {
+    transition: color 2s ease-in-out;
+  }
+  
+  .auto-grid li h4:hover {
+    color: #e9c46a;
+    transition: all 0s;
+  }
+  
+  .download-cv {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .more-about__heading {
+    text-transform: uppercase;
+    padding-bottom: 0.25rem;
+  }

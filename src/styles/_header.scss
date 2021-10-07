@@ -1,0 +1,253 @@
+@use "abstracts" as *;
+@use "fonts" as *;
+@use "mixins" as *;
+
+.header__container{
+    position:relative;
+
+    @include make-container();
+}
+
+.header {
+    overflow: hidden;
+    position: relative;
+    height: 39rem;
+    min-height: calc(13rem + 32vw);
+
+    @media (max-width: 75em) {
+        .header {
+            height: calc(13rem + 32vw); 
+    }
+}
+}
+
+.header::before,
+.header::after {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    bottom: -12rem;
+
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% auto;
+
+    @media (min-width: $breakpoint-nearly_lg) and (max-width: $breakpoint-xl) {
+        bottom: -10rem;
+    }
+
+    @media (min-width: $breakpoint_nearly_above_md) and (max-width: $breakpoint-lg) {
+        bottom: -3rem;
+        background-position: top;
+    }
+
+    @media (max-width: $breakpoint-md) {
+        bottom: -1rem;
+    }
+}
+
+.header::before {
+    margin-top: 0;
+    top: 0;
+    background-image: url("../assets/background.jpeg");
+
+    @media (min-width: $breakpoint-nearly_sm) and (max-width: $breakpoint-nearly_md) {
+        height: 100vh;
+        background-size: cover;
+        background-position: center top;
+    }
+
+    @media (max-width: $breakpoint-sm) {
+        height: 100vh;
+        background-size: cover;
+        background-position: center top;
+    }
+
+    @media (max-width: $breakpoint-xs) {
+        height: 100vh;
+        background-size: cover;
+        background-position: center top;
+    }
+}
+
+.header::after {
+    /* ~660 pixel hoch <=> 33vw */
+    height: 39vw;
+    background-image: url("../assets/background_transparent.png");
+
+    @media (max-width: $breakpoint-sm) { 
+        display: none;
+    }
+    
+    @media (max-width: $breakpoint-xs) { 
+        display: none;
+    }
+}
+
+.header__heading-container{
+    clear:both;
+}
+
+.header__heading-main{
+    padding-top: 1rem;
+    font-weight: 700;
+    font-size: 7rem;
+    text-align: center;
+    line-height: 85%;
+    color: #555555;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.5rem #cccccc;
+    animation-name: header__heading-main-font-weight;
+    animation-delay: 0.5s;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+
+
+    @media (max-width: $breakpoint-md) {
+            font-size: 5rem;
+    }
+
+    @media (max-width: $breakpoint-sm) {
+            font-size: 2.55rem;
+    }
+
+    @media (max-width: $breakpoint-xs) {
+        font-size: 2rem;
+}
+}
+@keyframes header__heading-main-font-weight {
+    0% {
+        opacity: 0;
+        font-weight: 100;
+    }
+    100% {
+        opacity: 1;
+        font-weight: 700;
+    }
+}
+
+
+.header__heading-sub-main{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    color: rgb(233, 196, 106);
+    text-transform: uppercase;
+    text-shadow: 0 0 0.5rem black;
+    position: relative;
+    z-index: 1;
+
+    @media (max-width: $breakpoint-sm) {
+        font-size: 1rem;
+        font-weight: 300;
+        text-shadow: none;
+    }
+    @media (max-width: $breakpoint-xs) {
+        font-size: 0.8rem;
+        font-weight: 300;
+        text-shadow: none;
+    }
+}
+
+.header__heading-sub-second{
+    margin-top: 0.1rem;
+    font-size: 0.5rem;
+    font-weight: 100;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    color: #eeeeee;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.5rem black;
+    position: relative;
+    z-index: 1;
+
+    @media (max-width: $breakpoint-sm) {
+            font-size: 0.3rem;
+            font-weight: 100;
+            text-shadow: none;
+    }
+    @media (max-width: $breakpoint-xs) {
+        display: none;
+}
+}
+
+
+// This is the "divider shape" on the bottom of the header image
+.header__slope {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10vw;
+    z-index: 1;
+
+    background-image: linear-gradient(-$slope-incline, #fefefe 49.9%, transparent 50.1%);
+    background-repeat: no-repeat;
+    background-position: center 100%;
+    background-size: 100vw 10vw;
+}
+
+.navigation__list-item {
+    list-style-type: none;
+    display: block;
+    float: left;
+
+    &--mobile-hidden {
+        @media (max-width: $breakpoint-md) {
+            display: none;
+        }
+    }
+
+    &--menu {
+        float: right;
+        font-size: 3rem;
+    }
+}
+
+.navigation__list-item-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 0.25rem 0.25rem 0.25rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: block;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>👆</text></svg>") 16 0,auto; /*!emojicursor.app*/
+    text-shadow: 0 0 0.5rem black;
+
+    &:hover {
+        color: $color-primary;
+    }
+
+    .navigation__list-item--menu & {
+        margin-top: 0.4rem;
+        margin-right: 0;
+        padding-right: 0;
+
+        &:hover {
+            border-bottom: none;
+            color: $color-primary;
+        }
+    }
+
+    &--logo {
+        margin-top: 0.9rem;
+        margin-left: 0;
+        padding-left: 0;
+
+        &:hover {
+            border-bottom: none;
+            color: $color-primary;
+        }
+    }
+}
+
+
+.navigation__list-item-logo {
+    width: 4rem;
+    height: 4rem;
+    fill: currentColor;
+}

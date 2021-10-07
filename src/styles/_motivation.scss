@@ -1,0 +1,127 @@
+@use "abstracts" as *;
+@use "fonts" as *;
+
+$-motivation__image-hover-padding: 0.33rem;
+$-motivation__image-hover-border: 0.33rem;
+
+@mixin motivation__image-position($top, $left) {
+    top: $top;
+    left: $left;
+
+    $hover-offset: $-motivation__image-hover-padding + $-motivation__image-hover-border;
+
+    &:hover {
+        top: $top - $hover-offset;
+        left: calc(#{$left} - #{$hover-offset});
+    }
+}
+
+.motivation {
+    margin-top: 3rem;
+}
+
+.motivation__column-text {
+    float: left;
+    width: 33.33%;
+    padding-right: 5rem;
+    padding-top: 4rem;
+
+    @media (max-width: $breakpoint-lg) {
+        padding-right: 2rem;
+    }
+
+    @media (max-width: $breakpoint-md) {
+        padding-top: 0rem;
+        padding-right: 0rem;
+        width: 50%;
+    }
+
+    @media (max-width: $breakpoint-sm) {
+        width: 100%;
+        float: none;
+        padding-bottom: 1.5rem;
+    }
+}
+
+.motivation__column-images {
+    float: left;
+    width: 66.66%;
+    height: clamp(10rem, calc(35vw + 10rem), 36rem);
+    position: relative;
+
+    @media (max-width: $breakpoint-md) {
+        width: 50%;
+        height: clamp(10rem, calc(20vw + 10rem), 36rem);
+    }
+
+    @media (max-width: $breakpoint-sm) {
+        float: none;
+        width: 80%;
+        margin: 0 auto;
+        height: clamp(10rem, calc(30vw + 10rem), 36rem);
+    }
+
+    @media (max-width: $breakpoint-xs) {
+        width: 90%;
+        height: clamp(10rem, calc(38.5vw + 10rem), 36rem);
+    }
+}
+
+.motivation__image {
+    position: absolute;
+    max-width: 50%;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    box-sizing: content-box;
+
+    transform: scale(1);
+    transition: transform ease-in-out 0.25s;
+
+    &--first {
+        width: 56%;
+        z-index: 3;
+
+        @include motivation__image-position(11rem, 40%);
+    }
+        
+    &--second {
+        width: 95%;
+        z-index: 1;
+
+        @include motivation__image-position(0rem, 25%);
+    }
+
+    &--third {
+        width: 33%;
+        z-index: 2;
+
+        @include motivation__image-position(5rem, 10%);
+    }
+
+    &:hover {
+        border: $-motivation__image-hover-padding solid $color-primary;
+        padding: $-motivation__image-hover-padding;
+        z-index: 10;
+        transform: scale(1.25);
+    }
+}
+
+.motivation__text-heading {
+    color: $color-secondary;
+    font-weight: 500;
+    font-size: 2rem;
+
+    &::before {
+        display: block;
+        content: "";
+        width: 3rem;
+        height: 0.25rem;
+        background-color: $color-secondary-light;
+        margin-bottom: 0.25rem;
+    }
+}
+
+.motivation__text {
+    color: $color-secondary;
+    margin-top: 0.2rem;
+    font-size: 1.2rem;
+}

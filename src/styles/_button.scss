@@ -1,0 +1,64 @@
+@use "abstracts/" as *;
+@use "fonts" as *;
+@use "sass:color";
+
+.button {
+    border: 0.125rem solid currentColor;
+    color: $color-primary;
+    text-decoration: none;
+    padding: 1rem 6rem;
+    border-radius: 10000px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.25;
+    cursor: pointer;
+
+    &:hover {
+        color: color.scale($color-primary, $lightness: 20%);
+    }
+}
+
+.button--form {
+    font-size: 1rem;
+    padding: 0.25rem 1rem;
+    color: black;
+    background-color: $color-primary;
+    border: 0.125rem solid $color-primary;
+    font-weight: normal;
+    text-transform: none;
+
+    &:hover {
+        color: rgb(50, 50, 50);
+    }
+}
+
+.button--white {
+    color: #fefefe;
+    text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.8);
+
+    &:hover {
+        color: rgb(230, 230, 230);
+    }
+}
+
+.button--background-blur {
+    -webkit-backdrop-filter: blur(3rem);
+    backdrop-filter: blur(3rem);
+}
+
+.button--secondary {
+    color: #fefefe;
+    background-color: $color-secondary;
+    border: 0.125rem solid $color-secondary;
+
+    &:hover {
+        color: $color-primary;
+        background-color: $color-secondary-dark;
+        }
+}
+
+.button--slim {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}

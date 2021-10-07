@@ -1,0 +1,206 @@
+@use "abstracts" as *;
+@use "mixins" as *;
+@use "fonts" as *;
+
+$-technologies-background-color: $color-secondary-dark;
+$-technologies-icon-size: 2rem;
+$-technologies-animations-duration: 0.3s;
+
+.technologies {
+    background-color: $-technologies-background-color;
+    position: relative;
+    padding-bottom: 8.5rem;
+}
+
+%technologies__before-and-after {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    content: "Full Stack Web Dev";
+    text-transform: uppercase;
+    color: $-technologies-background-color;
+    font-size: min(calc(100vw /11), 9rem);
+    font-weight: bold;
+    text-shadow: 0 0 1px white;
+    text-align: center;
+    z-index: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@mixin -technologies__before-and-after-stroke($color) {
+    @supports (-webkit-text-stroke: 2px #{$color}) or (text-stroke: 2px #{$color}) {
+        -webkit-text-stroke: 2px #{$color};
+        text-stroke: 2px #{$color};
+        text-shadow: none;
+    }
+}
+
+.technologies::before {
+    @extend %technologies__before-and-after;
+
+    @include -technologies__before-and-after-stroke(rgba(255, 255, 255, 0.2));
+}
+
+.technologies::after {
+    @extend %technologies__before-and-after;
+
+    @include -technologies__before-and-after-stroke(transparent);
+}
+
+.technologies__container {
+    position: relative;
+    z-index: 1;
+
+    @include make-container();
+}
+
+
+.technologies__heading {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.technologies__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.technologies__card {
+    flex: 0 0 20%;
+    @media (max-width: $breakpoint-lg) {
+        flex: 0 0 14.2rem;
+    }
+    
+    position: relative;
+    margin-top: 3rem;
+    height: 21rem;
+    overflow: hidden;
+    box-shadow: 0 0 1rem transparent;
+    transform: scale(1);
+
+    z-index: 0;
+
+    transition: transform $-technologies-animations-duration ease-in-out, 
+    box-shadow $-technologies-animations-duration ease-in-out,
+    z-index $-technologies-animations-duration linear;
+
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 1rem black;
+
+        transition: transform $-technologies-animations-duration ease-in-out,
+        box-shadow $-technologies-animations-duration ease-in-out,
+        z-index 0s linear;
+
+        z-index: 100;
+    }
+}
+
+.technologies__card-heading {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.technologies__card-used-tech {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.technologies__card-used-tech-desc {
+    font-size: 0.8rem;
+    padding: 0.9rem 0;
+    background-image: linear-gradient(90deg, $color-primary 60%, transparent 60%);
+    background-position-y: top;
+    background-size: 100% 0.125rem;
+    background-repeat: no-repeat;
+}
+
+.technologies__card-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+.technologies__icon-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    transition: transform $-technologies-animations-duration ease-in-out;
+
+    .technologies__card:hover & {
+        transform: translate(calc(50% - #{$-technologies-icon-size * 0.5}), 0);
+    }
+}
+
+.technologies__card-icon {
+    color: #fefefe;
+    position: relative;
+    padding-top: 0.55rem;
+    padding-left: calc(9% - 0.75rem);
+
+    filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.5));
+}
+
+.used-technologies__card-icon {
+    color: $color-primary;
+}
+
+.technologies__card-icon-background {
+    background-color: $color-primary;
+    padding: 0 0.3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $-technologies-icon-size;
+    box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.6);
+
+    transition: transform $-technologies-animations-duration ease-in-out;
+
+    transform: translate(calc(-100% + #{$-technologies-icon-size}), 0);
+
+    .technologies__card:hover & {
+        transform: translate(0, 0);
+    }
+}
+
+.technologies__card-content {
+    color: #fefefe;
+    // background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 3rem 1rem 0 1rem;
+    background-image: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.6) 30%);
+    text-shadow: 0 0 0.125rem black;
+
+    transition: transform $-technologies-animations-duration ease-in-out;
+
+    transform: translate(0, calc(100% - 8.15rem));
+
+    .technologies__card:hover & {
+        transform: translate(0, 0);
+    }
+}

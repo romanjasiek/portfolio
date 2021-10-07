@@ -1,0 +1,79 @@
+@use "abstracts" as *;
+@use "mixins" as *;
+@use "fonts" as *;
+@use "sass:color";
+
+.story {
+    position: relative;
+    overflow: hidden;
+}
+
+.story__video {
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    filter:grayscale(75%);
+
+    @supports (object-fit: cover) and (object-position: center center) {
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+
+// Video von Osmij / Pixabay
+
+.story__video-colorize {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background-color: color.scale($color-secondary, $alpha: -50%);
+}
+
+.story__container {
+    position: relative;
+    z-index: 2;
+
+    @include make-container();
+}
+
+.story__heading {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-size: 2rem;
+    text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.8);
+}
+
+.story__desc {
+    max-width: 40rem;
+    margin: 0 auto;
+    color: #fefefe;
+    column-count: 2;
+    column-gap: 4rem;
+    column-rule: 0.125rem dotted $color-primary;
+    text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.8);
+    text-align: justify;
+
+    @media (max-width: $breakpoint-sm) {
+        column-count: 1;
+        text-align: left;
+    }
+}
+
+.story__contact {
+    text-align: center;
+    padding: 4rem 0 4rem 0;
+    display:block;
+}

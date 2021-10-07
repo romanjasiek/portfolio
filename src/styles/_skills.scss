@@ -1,0 +1,296 @@
+@use "sass:math";
+
+@use "abstracts/" as *;
+@use "fonts" as *;
+@use "sass:color";
+
+$-skills-card-border-width: math.div(1rem, 16);
+$-skills-card-border-color: rgba(0,0,0,0.15);
+$-skills-card-margin: 0.66rem;
+$-half-pixel-width: math.div(1rem, 32);
+
+.skills {
+    background-color: rgb(240, 240, 240);
+    min-height: 5rem;
+}
+
+.skills__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-left: -$-skills-card-margin;
+    margin-right: -$-skills-card-margin;
+    margin-top: ($-skills-card-margin * -2);
+}
+
+.skills__card-container {
+    $-width: math.div(100%, 3);
+
+    width: calc(#{$-width} - #{($-skills-card-margin * 2 + 0.001rem)});
+    margin: ($-skills-card-margin * 2) $-skills-card-margin 0 $-skills-card-margin;
+
+    @media (max-width: $breakpoint-md) {
+        $-width-md: (100% * 0.5);
+        width: calc(#{$-width-md} - #{($-skills-card-margin * 2 + 0.001rem)})
+    }
+
+    @media (max-width: $breakpoint-sm) {
+        width: calc(100% - #{($-skills-card-margin * 2 + 0.001rem)})
+    }
+}
+
+.skills__card {
+    box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.skills__card-primary::after {
+    position: absolute;
+    content: "";
+    display: block;
+    bottom: 0;
+    left: -$-skills-card-border-width;
+    right: -$-skills-card-border-width;
+    height: 0.75rem;
+    background-color: $color-primary;
+    border-left: $-skills-card-border-width solid color.scale($color-primary, $saturation: -50%, $lightness: 25%);
+    border-right: $-skills-card-border-width solid color.scale($color-primary, $saturation: -50%, $lightness: 25%);
+}
+
+.skills__card-primary {
+    padding: 0 0 2rem 0;
+    background-color: #fefefe;
+    border-left: $-skills-card-border-width solid $-skills-card-border-color;
+    border-right: $-skills-card-border-width solid $-skills-card-border-color;
+    border-top: $-skills-card-border-width solid $-skills-card-border-color;
+}
+
+.skills__image {
+    width: 100%;
+    filter: grayscale(100%);
+    mix-blend-mode: multiply;
+}
+
+.skills__image-container {
+    position: relative;
+    margin-top: -$-skills-card-border-width;
+    margin-right: -$-skills-card-border-width;
+    margin-left: -$-skills-card-border-width;
+}
+
+.skills__image-container::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    border-top: $-skills-card-border-width solid rgba(0, 0, 0, 0.25);
+    border-right: $-skills-card-border-width solid rgba(0, 0, 0, 0.25);
+    border-left: $-skills-card-border-width solid rgba(0, 0, 0, 0.25);
+}
+
+.skills__image-container::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5rem;
+    background-image: linear-gradient(-$slope-incline, #fefefe 49.7%, transparent 50.3%);
+    background-repeat: no-repeat;
+    background-position: 50% 1rem;
+
+    @media (max-width: $breakpoint-sm) {
+        height: 5rem;
+    }
+}
+
+.skills__content-heading {
+    color: $color-secondary-dark;
+    font-size: 1.75rem;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.skills__content {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+
+.skills__content-subheading {
+    color: $color-primary;
+    font-size: 1rem;
+}
+
+.skills__content-info {
+    margin-top: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    display: flex;
+    background-image: linear-gradient(90deg,
+        transparent calc(50% - #{$-half-pixel-width}),
+        rgba(0, 0, 0, 0.15) calc(50% - #{$-half-pixel-width}),
+        rgba(0, 0, 0, 0.15) calc(50% + #{$-half-pixel-width}),
+        transparent calc(50% + #{$-half-pixel-width})
+    );
+    background-repeat: no-repeat;
+    background-size: 100% 75%;
+    background-position: center center;
+}
+
+%skills__content-info-column {
+    flex: 1 1 50%;
+    color: $color-secondary;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.skills__content-skill1 {
+    @extend %skills__content-info-column;
+}
+
+.skills__content-skill2 {
+    @extend %skills__content-info-column;
+}
+
+.skills__content-skill3-container {
+    padding-top: 1rem;
+    padding-left: 1.25rem;
+    font-size: 1rem;
+    color: $color-secondary;
+}
+
+.skills__content-skill3-highlighter {
+    display: block;
+    color: $color-primary;
+    font-weight: 500;
+    font-size: 1.75rem;
+    line-height: 0.9em;
+}
+
+.skills__card-hover {
+    position: absolute;
+    top: -$-skills-card-border-width;
+    left: -$-skills-card-border-width;
+    right: -$-skills-card-border-width;
+    bottom: -$-skills-card-border-width;
+    z-index: 2;
+
+    background-color: $color-primary;
+    background-image: linear-gradient(90deg,
+        transparent calc(50% - #{$-half-pixel-width}),
+      white calc(50% - #{$-half-pixel-width}),
+      white calc(50% + #{$-half-pixel-width}),
+        transparent calc(50% + #{$-half-pixel-width})
+    ), linear-gradient(135deg,
+        $color-primary 0%,
+        color.scale($color-primary, $lightness: -20%) 100%
+    );
+    background-repeat: no-repeat, no-repeat;
+    background-position: center top, center center;
+    background-size: 100% calc(50% - 4rem), 100% 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+    .skills__card:hover & {
+        opacity: 1;
+    }
+}
+
+.skills__card-container--flip {
+    perspective: 50rem;
+
+    .skills__card {
+        transition: transform 1s ease-in-out;
+        transform-style: preserve-3d;
+    }
+
+    &:hover .skills__card {
+        transform: rotateY(180deg);
+    }
+
+    .skills__card-primary {
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: rotateY(0deg);
+        transform-style: preserve-3d;
+    }
+
+    .skills__card-hover {
+        transform: rotateY(180deg);
+        opacity: 1;
+
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+}
+
+@mixin skills__card-hover-bg($alpha-dt: 0%) {
+    background-image: linear-gradient(90deg,
+        transparent calc(90% - #{$-half-pixel-width}),
+      white calc(50% - #{$-half-pixel-width}),
+      white calc(50% + #{$-half-pixel-width}),
+        transparent calc(50% + #{$-half-pixel-width})
+    ), linear-gradient(135deg,
+        color.scale($color-primary, $alpha: $alpha-dt) 0%,
+        color.scale($color-primary, $lightness: -20%, $alpha: $alpha-dt) 100%
+    );
+}
+
+%skills__card-container--3d-effect {
+    perspective: 50rem;
+
+    .skills__card {
+        transition: transform 0.5s ease-in-out;
+        transform: rotateX(calc(calc(var(--mouse-y, 0.5) - 0.5) * -20deg)) rotateY(calc(calc(var(--mouse-x, 0.5) - 0.5) * 20deg));
+    }
+
+    &:hover .skills__card {
+        transition: transform 0.1s linear;
+    }
+}
+
+.skills__card-container--3d {
+    @extend %skills__card-container--3d-effect;
+
+    .skills__card-hover {
+        display: none;
+    }
+}
+
+.skills__card-container--3d-hover {
+    @extend %skills__card-container--3d-effect;
+
+    .skills__card-primary {
+        transform-style: preserve-3d;
+        filter: blur(0rem);
+        transition: filter 0.5s ease-in-out;
+    }
+
+    .skills__card {
+        transform-style: preserve-3d;
+    }
+
+    .skills__card-hover {
+        background-color: transparent;
+        @include skills__card-hover-bg(-25%);
+
+        transform: translateZ(1rem);
+    }
+
+    &:hover .skills__card-primary {
+        filter: blur(0.5rem);
+    }
+}

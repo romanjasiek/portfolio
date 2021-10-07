@@ -1,0 +1,30 @@
+@use "abstracts" as *;
+@use "mixins" as *;
+@use "fonts" as *;
+
+@use "sass:color";
+
+.more-tech {
+    @include make-container();
+    background: #fefefe;
+    color: #555555;
+}
+
+.more-tech__heading {
+    text-transform: uppercase;
+}
+
+.more-tech__icon {
+    padding-right: 1rem;
+    color: $color-primary;
+}
+
+.more-tech__link {
+    text-decoration: none;
+    color: #555555;
+    font-weight: 700;
+}
+
+.more-tech__link:hover{
+    color: $color-primary;
+}
