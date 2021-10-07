@@ -2,7 +2,7 @@ import React from 'react';
 
 import Agadir from '../img/gallery/agadir.jpeg';
 import Barcelona from '../img/gallery/barcelona.jpeg';
-import Chimp from '../img/gallery/chimp.jpeg';
+import Chimp from '../img/gallery/chimps.jpeg';
 import CruiseShips from '../img/gallery/cruiseships.jpeg';
 import Lanzarote from '../img/gallery/lanzarote.jpeg';
 import Oslo from '../img/gallery/oslo.jpeg';
