@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c5bc7339.chunk.css",
-    "main.js": "/portfolio/static/js/main.2730a2c3.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.2730a2c3.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.760c6ed4.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.760c6ed4.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.a9f76519.js.map",
     "static/js/2.9a4fce18.chunk.js": "/portfolio/static/js/2.9a4fce18.chunk.js",
@@ -22,7 +22,7 @@
     "static/media/card3.577f9df4.jpeg": "/portfolio/static/media/card3.577f9df4.jpeg",
     "static/media/card4.a55a368f.jpeg": "/portfolio/static/media/card4.a55a368f.jpeg",
     "static/media/card5.bafeb859.jpeg": "/portfolio/static/media/card5.bafeb859.jpeg",
-    "static/media/chimp.f5c27b2f.jpeg": "/portfolio/static/media/chimp.f5c27b2f.jpeg",
+    "static/media/chimps.f5c27b2f.jpeg": "/portfolio/static/media/chimps.f5c27b2f.jpeg",
     "static/media/corsica.6a3527f4.jpeg": "/portfolio/static/media/corsica.6a3527f4.jpeg",
     "static/media/cruiseships.cf5bea24.jpeg": "/portfolio/static/media/cruiseships.cf5bea24.jpeg",
     "static/media/fieldsofthenephilim.48b95822.jpeg": "/portfolio/static/media/fieldsofthenephilim.48b95822.jpeg",
@@ -48,6 +48,6 @@
     "static/js/runtime-main.a9f76519.js",
     "static/js/2.9a4fce18.chunk.js",
     "static/css/main.c5bc7339.chunk.css",
-    "static/js/main.2730a2c3.chunk.js"
+    "static/js/main.760c6ed4.chunk.js"
   ]
 }
