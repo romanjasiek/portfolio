@@ -23,7 +23,7 @@ const Projects = () => {
     <section className="py-5 text-center container">
       <div className="row py-lg-3">
         <div className="col-lg-6 col-md-8 mx-auto">
-          <h1>Projects</h1>
+          <h1 id="projects">Projects</h1>
           <p className="lead text-muted">This is a little showcase of projects I did either for myself or for others. Some projects are finished, some are designed to be ongoing.</p>
         </div>
       </div>

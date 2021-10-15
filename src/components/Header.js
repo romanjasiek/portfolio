@@ -24,6 +24,8 @@ const Header = () => {
                 <li className="navigation__list-item navigation__list-item--mobile-hidden">
                     <a className="navigation__list-item-link" href="#aboutme">About Me</a></li>
                 <li className="navigation__list-item navigation__list-item--mobile-hidden">
+                    <a className="navigation__list-item-link" href="#projects">Projects</a></li>
+                <li className="navigation__list-item navigation__list-item--mobile-hidden">
                     <a className="navigation__list-item-link" href="#getintouch">Contact</a></li>
                     <li className="navigation__list-item navigation__list-item--menu">
                         <label className="navigation__list-item-link" htmlFor="sidenav__opened">
@@ -46,7 +48,7 @@ const Header = () => {
         </nav>
         <div className="header__heading-container">
             <h1 className="header__heading-main">Roman <br />Jasiek</h1>
-            <p className="header__heading-sub-main">M|E|R|N Full Stack Developer</p>
+            <p className="header__heading-sub-main">Full Stack Developer</p>
             {/* <p className="header__heading-sub-second">(In Training)</p> */}
         </div>
     </div>

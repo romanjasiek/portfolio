@@ -25,7 +25,7 @@ const Footer = () => {
                                 C419.14,392.82,420.17,402.26,414.98,408.72z"/>
                         </svg>
                     </div>
-                    <a className="footer__contact-item-link" href="mailto:romanjasiek@me.com?subject=Contact%20via%20GitHub" target="_blank" rel="noreferrer">romanjasiek@me.com</a>
+                    <a className="footer__contact-item-link" href="mailto:romanjasiek@me.com?subject=Contact" target="_blank" rel="noreferrer">romanjasiek@me.com</a>
                 </div>
                 <div className="footer__contact-item">
                     <div className="footer__contact-item-icon footer__contact-item-icon--phone">
