@@ -1,0 +1,37 @@
+@use "abstracts" as *;
+@use "fonts" as *;
+@use "bootstrap" as *;
+
+h1 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    font-size: 2rem;
+    color: $color-primary;
+}
+
+a {
+    color: $color-primary;
+    text-decoration: none;
+}
+
+.projects-container {
+    background-color: $color-secondary-light;
+}
+
+.projects__image {
+    width: 100%;
+    filter: grayscale(100%);
+    mix-blend-mode: normal;
+}
+
+.projects__image--highlighter {
+    &:hover {
+        filter: grayscale(0%);
+        mix-blend-mode: normal;
+    }
+    width: 100%;
+
+}

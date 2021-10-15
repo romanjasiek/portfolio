@@ -10,6 +10,7 @@ import Skills from './components/Skills';
 import Gallery from './components/Gallery';
 import AboutMe from './components/AboutMe';
 import MoreAboutMe from './components/MoreAboutMe';
+import Projects from './components/Projects';
 import Footer from './components/Footer';
 import ContactModal from './components/ContactModal';
 import Sidenav from './components/Sidenav';
@@ -26,6 +27,7 @@ function App() {
       <Gallery />
       <AboutMe />
       <MoreAboutMe />
+      <Projects />
       <Footer />
       <ContactModal />
       <Sidenav />
