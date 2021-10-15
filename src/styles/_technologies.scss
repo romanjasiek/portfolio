@@ -2,8 +2,9 @@
 @use "mixins" as *;
 @use "fonts" as *;
 
+
 $-technologies-background-color: $color-secondary-dark;
-$-technologies-icon-size: 2rem;
+$-technologies-icon-size: 2.3rem;
 $-technologies-animations-duration: 0.3s;
 
 .technologies {
@@ -173,7 +174,7 @@ $-technologies-animations-duration: 0.3s;
     top: 0;
     left: 0;
     width: 100%;
-    height: $-technologies-icon-size;
+    height: 2rem;
     box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.6);
 
     transition: transform $-technologies-animations-duration ease-in-out;

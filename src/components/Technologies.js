@@ -20,7 +20,7 @@ const Technologies = () => {
             <div className="technologies__card">
                 <img className="technologies__card-image" src={Card1} alt="HTML" />
                 <div className="technologies__card-icon-background"></div>
-                <div className="technologies__icon-container"><p><FontAwesomeIcon icon={faHtml5} size="2x"/></p></div>
+                <div className="technologies__icon-container"><p><FontAwesomeIcon icon={faHtml5} color="#fefefe" size="2x"/></p></div>
                 <div className="technologies__card-content">
                     <h5 className="technologies__card-heading">HTML</h5>
                     <p className="technologies__card-used-tech">HTML5&nbsp;<FontAwesomeIcon icon={faCheck}/></p>
@@ -30,7 +30,7 @@ const Technologies = () => {
             <div className="technologies__card">
                 <img className="technologies__card-image" src={Card2} alt="CSS" />
                 <div className="technologies__card-icon-background"></div>
-                <div className="technologies__icon-container"><p><FontAwesomeIcon icon={faCss3} size="2x"/></p></div>
+                <div className="technologies__icon-container"><p><FontAwesomeIcon icon={faCss3} color="#fefefe" size="2x"/></p></div>
                 <div className="technologies__card-content">
                     <h5 className="technologies__card-heading">CSS</h5>
                     <p className="technologies__card-used-tech">CSS3&nbsp;<FontAwesomeIcon icon={faCheck}/></p>
@@ -40,7 +40,7 @@ const Technologies = () => {
             <div className="technologies__card">
                 <img className="technologies__card-image" src={Card3} alt="HTML" />
                 <div className="technologies__card-icon-background"></div>
-                <div className="technologies__icon-container"><p><FontAwesomeIcon icon={faGithub} size="2x"/></p></div>
+                <div className="technologies__icon-container"><p><FontAwesomeIcon icon={faGithub} color="#fefefe" size="2x"/></p></div>
                 <div className="technologies__card-content">
                     <h5 className="technologies__card-heading">GitHub</h5>
                     <p className="technologies__card-used-tech">GitHub&nbsp;<FontAwesomeIcon icon={faCheck}/></p>
@@ -50,7 +50,7 @@ const Technologies = () => {
             <div className="technologies__card">
                 <img className="technologies__card-image" src={Card4} alt="HTML" />
                 <div className="technologies__card-icon-background"></div>
-                <div className="technologies__icon-container"><p><FontAwesomeIcon icon={faReact} size="2x"/></p></div>
+                <div className="technologies__icon-container"><p><FontAwesomeIcon icon={faReact} color="#fefefe" size="2x"/></p></div>
                 <div className="technologies__card-content">
                     <h5 className="technologies__card-heading">React</h5>
                     <p className="technologies__card-used-tech">React&nbsp;<FontAwesomeIcon icon={faCheck}/></p>
@@ -60,7 +60,7 @@ const Technologies = () => {
             <div className="technologies__card">
                 <img className="technologies__card-image" src={Card5} alt="HTML" />
                 <div className="technologies__card-icon-background"></div>
-                <div className="technologies__icon-container"><p><FontAwesomeIcon icon={faBootstrap} size="2x"/></p></div>
+                <div className="technologies__icon-container"><p><FontAwesomeIcon icon={faBootstrap} color="#fefefe" size="2x"/></p></div>
                 <div className="technologies__card-content">
                     <h5 className="technologies__card-heading">Bootstrap</h5>
                     <p className="technologies__card-used-tech">Bootstrap&nbsp;<FontAwesomeIcon icon={faCheck}/></p>
