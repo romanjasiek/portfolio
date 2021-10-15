@@ -21,6 +21,9 @@
 @use "story";
 @use "technologies";
 
+html {
+  scroll-behavior: smooth;
+}
 
 input,
 select {
