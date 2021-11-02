@@ -68,7 +68,7 @@ const Header = () => {
                   className="navigation__list-item-link"
                   htmlFor="sidenav__opened"
                 >
-                  <svg className="icon" viewBox="0 0 512 512">
+                  <svg className="another-icon" viewBox="0 0 512 512">
                     <g>
                       <path
                         d="M358.06,193.61H153.94c-3.83,0-6.93-3.1-6.93-6.93s3.1-6.93,6.93-6.93h204.13c3.83,0,6.93,3.1,6.93,6.93

@@ -28,3 +28,13 @@
 .more-tech__link:hover{
     color: $color-primary;
 }
+
+.fading {
+    text-transform: uppercase;
+    transition: color 2s ease-in-out;
+
+    &:hover {
+        color: $color-primary;
+        transition: all 0s;
+      }
+}

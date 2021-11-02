@@ -21,6 +21,10 @@ a {
     background-color: $color-secondary-light;
 }
 
+.projects-highlighter {
+    color: $color-primary;
+}
+
 .projects__image {
     width: 100%;
     filter: grayscale(100%);

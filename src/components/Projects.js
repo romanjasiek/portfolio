@@ -145,7 +145,7 @@ const Projects = () => {
             <div className="card shadow-sm">
             <img className="projects__image" src={Portfolio} alt="Portfolio Screenshot" />
               <div className="card-body">
-                <p className="card-text"><strong>Portfolio</strong>: You're looking at it right now. My most extensive work to date. It's my Photo Project converted into a React App with many extensions and much more content. I put more than 100 hours of work in it so far.</p>
+                <p className="card-text"><strong className="projects-highlighter">Portfolio</strong>: You're looking at it right now. My most extensive work to date. It's my Photo Project converted into a React App with many extensions and much more content. I put more than 100 hours of work in it so far.</p>
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="btn-group">
                     <button type="button" className="button button--secondary button--small"><a href="https://github.com/romanjasiek/portfolio" target="blank" rel="noreferrer">Repo: <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></a></button>

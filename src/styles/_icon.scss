@@ -1,3 +1,7 @@
+@use "abstracts" as *;
+@use "fonts" as *;
+@use "mixins" as *;
+
 .icon {
     fill: currentColor;
     height: 1em;
@@ -6,5 +10,20 @@
     &:not(.icon--no-position) {
         position: relative;
         top: -0.075em;
+    }
+}
+
+.another-icon {
+    fill: $color-secondary;
+    height: 1em;
+    vertical-align: middle;
+
+    &:not(.icon--no-position) {
+        position: relative;
+        top: -0.075em;
+    }
+
+    &:hover {
+        fill: $color-primary;
     }
 }
