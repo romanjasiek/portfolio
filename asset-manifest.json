@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0f24ee10.chunk.css",
-    "main.js": "/portfolio/static/js/main.0ae786b8.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0ae786b8.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.6217bb07.chunk.css",
+    "main.js": "/portfolio/static/js/main.8201f47b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8201f47b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.37da8305.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.37da8305.js.map",
-    "static/js/2.3ecc6633.chunk.js": "/portfolio/static/js/2.3ecc6633.chunk.js",
-    "static/js/2.3ecc6633.chunk.js.map": "/portfolio/static/js/2.3ecc6633.chunk.js.map",
+    "static/js/2.6ef48b20.chunk.js": "/portfolio/static/js/2.6ef48b20.chunk.js",
+    "static/js/2.6ef48b20.chunk.js.map": "/portfolio/static/js/2.6ef48b20.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.0f24ee10.chunk.css.map": "/portfolio/static/css/main.0f24ee10.chunk.css.map",
-    "static/js/2.3ecc6633.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3ecc6633.chunk.js.LICENSE.txt",
+    "static/css/main.6217bb07.chunk.css.map": "/portfolio/static/css/main.6217bb07.chunk.css.map",
+    "static/js/2.6ef48b20.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6ef48b20.chunk.js.LICENSE.txt",
     "static/media/app.scss": "/portfolio/static/media/modal_bg.e6caae08.jpeg",
     "static/media/aberfoyle.fd3852cd.jpeg": "/portfolio/static/media/aberfoyle.fd3852cd.jpeg",
     "static/media/agadir.2595c235.jpeg": "/portfolio/static/media/agadir.2595c235.jpeg",
@@ -33,6 +33,9 @@
     "static/media/loop.72369b58.ogv": "/portfolio/static/media/loop.72369b58.ogv",
     "static/media/loop.b412c43f.webm": "/portfolio/static/media/loop.b412c43f.webm",
     "static/media/loop.bced5b1c.mp4": "/portfolio/static/media/loop.bced5b1c.mp4",
+    "static/media/mernsocialnetworkclient.d3ac3121.jpg": "/portfolio/static/media/mernsocialnetworkclient.d3ac3121.jpg",
+    "static/media/mernsocialnetworkdeployedapp.b062e561.jpg": "/portfolio/static/media/mernsocialnetworkdeployedapp.b062e561.jpg",
+    "static/media/mernsocialnetworkserver.6373f38d.jpg": "/portfolio/static/media/mernsocialnetworkserver.6373f38d.jpg",
     "static/media/monkeys.20e76518.jpeg": "/portfolio/static/media/monkeys.20e76518.jpeg",
     "static/media/monochromereflections.8552161f.jpg": "/portfolio/static/media/monochromereflections.8552161f.jpg",
     "static/media/musicevangelists.385641ea.jpg": "/portfolio/static/media/musicevangelists.385641ea.jpg",
@@ -58,8 +61,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.37da8305.js",
-    "static/js/2.3ecc6633.chunk.js",
-    "static/css/main.0f24ee10.chunk.css",
-    "static/js/main.0ae786b8.chunk.js"
+    "static/js/2.6ef48b20.chunk.js",
+    "static/css/main.6217bb07.chunk.css",
+    "static/js/main.8201f47b.chunk.js"
   ]
 }
