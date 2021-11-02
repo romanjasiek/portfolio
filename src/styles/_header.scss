@@ -276,11 +276,11 @@
     border-radius: 0.5rem;
     margin-top: 0.1rem;
     margin-left: 2rem;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
     display: block;
     cursor: pointer;
     text-shadow: 0 0 0.5rem black;
-    text-align: center;
+    text-align: right;
   
     &:hover {
       color: $color-primary;

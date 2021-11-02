@@ -61,7 +61,7 @@ const Header = () => {
                 </li>
               </div>
               <li
-                onClick={() => setIsOpen(!isOpen)} style={{ position: "fixed", float: "right", zIndex: "5000", right: "8rem"}}
+                onClick={() => setIsOpen(!isOpen)} style={{ position: "fixed", float: "right", zIndex: "5000", right: "4rem"}}
                 className="navigation__list-item navigation__list-item--menu BurgerMenu"
               >
                 <label
