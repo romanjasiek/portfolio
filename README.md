@@ -21,3 +21,4 @@ Well, this is the result so far.
 - Redo the `lightbox`
 - More `mobile optimizations`
 - ~~Fixing the `sidebar navigation`~~
+- ~~Adding something to `receive emails` even if hosted on GitHub Pages~~
