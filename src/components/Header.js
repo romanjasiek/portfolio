@@ -40,7 +40,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="navigation__list-item navigation__list-item--mobile-hidden">
-                  <a className="navigation__list-item-link" href="#gallery">
+                  <a className="navigation__list-item-link" href="#galleries">
                     Reflections
                   </a>
                 </li>

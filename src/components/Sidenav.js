@@ -11,7 +11,7 @@ const Sidenav = () => {
                 <ul className="sidenav__nav">
                     <li><a href="#home" className="sidenav__nav-link">Home</a></li>
                     <li><a href="#usedtechnologies" className="sidenav__nav-link">Used Technologies</a></li>
-                    <li><a href="#gallery" className="sidenav__nav-link">Reflections</a></li>
+                    <li><a href="#galleries" className="sidenav__nav-link">Reflections</a></li>
                     <li><a href="#aboutme" className="sidenav__nav-link">About Me</a></li>
                     <li><a href="#getintouch" className="sidenav__nav-link">Contact</a></li>
                 </ul>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/app.scss';
+import SimpleReactLightbox from "simple-react-lightbox";
 
 import Header from './components/Header';
 import Motivation from './components/Motivation';
@@ -18,19 +19,21 @@ import Sidenav from './components/Sidenav';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Motivation />
-      <Technologies />
-      <MoreTech />
-      <Story />
-      <Skills />
-      <Gallery />
-      <AboutMe />
-      <MoreAboutMe />
-      <Projects />
-      <Footer />
-      <ContactModal />
-      <Sidenav />
+      <SimpleReactLightbox>
+        <Header />
+        <Motivation />
+        <Technologies />
+        <MoreTech />
+        <Story />
+        <Skills />
+        <Gallery />
+        <AboutMe />
+        <MoreAboutMe />
+        <Projects />
+        <Footer />
+        <ContactModal />
+        <Sidenav />
+      </SimpleReactLightbox>
     </div>
   );
 }
