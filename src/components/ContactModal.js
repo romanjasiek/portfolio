@@ -42,11 +42,11 @@ const ContactModal = () => {
                 <p className="contact-modal__paragraph">Topic:</p>
                 <div className="form__radio-group">
                     <div className="form__radio-item form__radio-item--white">
-                        <input name="joboffer" className="form__radio-item-radio" type="radio" name="type" value="joboffer" id="booking-modal-type-joboffer" />
+                        <input name="joboffer" className="form__radio-item-radio" type="radio" value="joboffer" id="booking-modal-type-joboffer" />
                         <label className="form__radio-item-label" htmlFor="booking-modal-type-joboffer">I have a Internship/Job Offer</label>
                     </div>
                     <div className="form__radio-item form__radio-item--white">
-                        <input name="generalinquiry" className="form__radio-item-radio" type="radio" name="type" value="generalinquiry" id="booking-modal-type-generalinquiry" />
+                        <input name="generalinquiry" className="form__radio-item-radio" type="radio" value="generalinquiry" id="booking-modal-type-generalinquiry" />
                         <label className="form__radio-item-label" htmlFor="booking-modal-type-generalinquiry">I have a General Inquiry</label>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ const ContactModal = () => {
                     <input type="submit" className="button button--form" value="Send!" />
                 </div>
             </form>
-            <p className="contact-modal__notice">Please note: Since this website is hosted on GitHub Pages, the only way you can contact me is via <a className="contact-modal__notice-link" href="https://github.com/romanjasiek" target="_blank">GitHub</a> or via <a className="contact-modal__notice-link" href="#getintouch">e-mail</a>.</p>
+            <p className="contact-modal__notice">Please note: Since this website is hosted on GitHub Pages, I'm using <a className="contact-modal__notice-link" href="https://usebasin.com" target="blank" rel="noreferrer">Basin</a> to receive mails. You can also contact me via <a className="contact-modal__notice-link" href="https://github.com/romanjasiek" target="_blank" rel="noreferrer">GitHub</a> or via <a className="contact-modal__notice-link" href="#getintouch">e-mail</a>.</p>
         </div>
     </section>
         </>

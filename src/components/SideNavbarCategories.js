@@ -1,4 +1,5 @@
 import React from "react";
+import CurriculumVitae from "../assets/cv/Roman-Jasiek_CV_EN.pdf";
 
 export default function SideNavbarCategories({ isOpen }) {
   return (
@@ -9,6 +10,7 @@ export default function SideNavbarCategories({ isOpen }) {
       <li><a className="navigation__list-item-link-sidebar" href="#aboutme">About Me</a></li>
       <li><a className="navigation__list-item-link-sidebar" href="#projects">Projects</a></li>
       <li><a className="navigation__list-item-link-sidebar" href="#getintouch">Contact</a></li>
+      <li><a className="navigation__list-item-link-sidebar" href={CurriculumVitae} download="CurriculumVitae">Download CV</a></li>
     </ul>
   );
 }

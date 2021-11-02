@@ -4,7 +4,7 @@ This Portfolio is a React re-creation of my previous Portfolio (`GitHub page`: h
 
 All in all I spend `100+ hours` in building it.
 
-`Version: 0.3.1`
+`Version: 0.4.2`
 
 ## What I did here:
 
