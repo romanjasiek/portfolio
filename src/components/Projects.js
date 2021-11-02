@@ -15,6 +15,9 @@ import Portfolio from '../img/projects/portfolio.jpg';
 import VagueMusicPlayer from '../img/projects/vaguemusicplayer.jpg';
 import ReactLogo from '../img/projects/react.jpg';
 import ToBeContinued from '../img/projects/tobecontinued.jpg';
+import MernSocialNetworkDeployed from '../img/projects/mernsocialnetworkdeployedapp.jpg';
+import MernSocialNetworkServer from '../img/projects/mernsocialnetworkserver.jpg';
+import MernSocialNetworkClient from '../img/projects/mernsocialnetworkclient.jpg';
 
 const Projects = () => {
     return(
@@ -24,7 +27,7 @@ const Projects = () => {
       <div className="row py-lg-3">
         <div className="col-lg-6 col-md-8 mx-auto">
           <h1 id="projects">Projects</h1>
-          <p className="lead text-muted">This is a little showcase of projects I did either for myself or for others. Some projects are finished, some are designed to be ongoing.</p>
+          <p className="lead text-muted">This is a little showcase of projects I did either for myself or for others. Some projects are finished, some are designed to be ongoing and some are still work in progress.</p>
         </div>
       </div>
     </section>
@@ -186,6 +189,45 @@ const Projects = () => {
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="btn-group">
 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="card shadow-sm">
+            <img className="projects__image" src={MernSocialNetworkClient} alt="Vague Music Player Screenshot" />
+              <div className="card-body">
+                <p className="card-text"><strong>MERN Social Network / Client Side</strong>: The client side of a very basic Twitter-/Instagram-like social network, built with MongoDB, Expres, React and Node.</p>
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="btn-group">
+                    <button type="button" className="button button--secondary button--small"><a href="https://github.com/romanjasiek/thesocialnetwork-client" target="blank" rel="noreferrer">Repo: <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="card shadow-sm">
+            <img className="projects__image" src={MernSocialNetworkServer} alt="Vague Music Player Screenshot" />
+              <div className="card-body">
+                <p className="card-text"><strong>MERN Social Network / Server Side</strong>: The server side of a very basic Twitter-/Instagram-like social network, built with MongoDB, Expres, React and Node.</p>
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="btn-group">
+                    <button type="button" className="button button--secondary button--small"><a href="https://github.com/romanjasiek/thesocialnetwork-server" target="blank" rel="noreferrer">Repo: <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="card shadow-sm">
+            <img className="projects__image" src={MernSocialNetworkDeployed} alt="Vague Music Player Screenshot" />
+              <div className="card-body">
+                <p className="card-text"><strong>MERN Social Network / Deployed App</strong>: Server side and client side deployed on a Droplet on Digital Ocean. Registering is disabled, because this is not really intended to be used at the moment.</p>
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="btn-group">
+                    <button type="button" className="button button--secondary button--small"><a href="http://178.128.202.104/" target="blank" rel="noreferrer">View</a></button>
                   </div>
                 </div>
               </div>
