@@ -3,6 +3,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileCode, faRssSquare, faFileSignature, faCameraRetro, faPenSquare } from '@fortawesome/free-solid-svg-icons';
 import { faWordpress } from '@fortawesome/free-brands-svg-icons';
+import CurriculumVitae from "../assets/cv/Roman-Jasiek_CV_EN.pdf"
 
 const MoreAboutMe = () => {
     return(
@@ -34,7 +35,7 @@ const MoreAboutMe = () => {
         </li>
       </ul>
       <div className="download-cv">
-          <a className="button" href="#">Download CV</a>
+          <a className="button" href={CurriculumVitae} download="CurriculumVitae">Download CV</a>
       </div>
 </section>
 </>
