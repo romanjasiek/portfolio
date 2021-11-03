@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "0.5.3",
+  "version": "0.5.5",
   "homepage": "https://romanjasiek.github.io/portfolio",
   "private": true,
   "dependencies": {
