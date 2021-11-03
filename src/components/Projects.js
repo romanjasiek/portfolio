@@ -143,7 +143,7 @@ const Projects = () => {
           </div>
           <div className="col">
             <div className="card shadow-sm">
-            <img className="projects__image" src={Portfolio} alt="Portfolio Screenshot" />
+            <img className="projects__image" loading="lazy" src={Portfolio} alt="Portfolio Screenshot" />
               <div className="card-body">
                 <p className="card-text"><strong className="projects-highlighter">Portfolio</strong>: You're looking at it right now. My most extensive work to date. It's my Photo Project converted into a React App with many extensions and much more content. I put more than 100 hours of work in it so far.</p>
                 <div className="d-flex justify-content-between align-items-center">
@@ -156,7 +156,7 @@ const Projects = () => {
           </div>
           <div className="col">
             <div className="card shadow-sm">
-            <img className="projects__image" src={ReactLogo} alt="React Logo" />
+            <img className="projects__image" loading="lazy" src={ReactLogo} alt="React Logo" />
               <div className="card-body">
                 <p className="card-text"><strong>React To Do App</strong>: My very first contact with React. A very basic To-Do app, which is not yet finished. I have decided to showcase it here to document my progress in learning and understanding React.</p>
                 <div className="d-flex justify-content-between align-items-center">
@@ -169,7 +169,7 @@ const Projects = () => {
           </div>
           <div className="col">
             <div className="card shadow-sm">
-            <img className="projects__image" src={VagueMusicPlayer} alt="Vague Music Player Screenshot" />
+            <img className="projects__image" loading="lazy" src={VagueMusicPlayer} alt="Vague Music Player Screenshot" />
               <div className="card-body">
                 <p className="card-text"><strong>Vague Music Player / Coding Tunes</strong>: This is a simple music player app, containing some relaxing tunes, created in React. This was my project at the end of the React module of my intensive studies at DCI.</p>
                 <div className="d-flex justify-content-between align-items-center">
@@ -183,7 +183,7 @@ const Projects = () => {
           </div>
           <div className="col">
             <div className="card shadow-sm">
-            <img className="projects__image projects__image--highlighter" src={ToBeContinued} alt="To Be Continued" />
+            <img className="projects__image projects__image--highlighter" loading="lazy" src={ToBeContinued} alt="To Be Continued" />
               <div className="card-body">
                 <p className="card-text"><strong>To be continued</strong>: At the moment I am still busy with the intensive studies at the DCI. But even after that, the learning will never stop. As soon as I have finished another project I will display it here..</p>
                 <div className="d-flex justify-content-between align-items-center">
@@ -196,7 +196,7 @@ const Projects = () => {
           </div>
           <div className="col">
             <div className="card shadow-sm">
-            <img className="projects__image" src={MernSocialNetworkClient} alt="Vague Music Player Screenshot" />
+            <img className="projects__image" loading="lazy" src={MernSocialNetworkClient} alt="MERN Social Network Client Screenshot" />
               <div className="card-body">
                 <p className="card-text"><strong>MERN Social Network / Client Side</strong>: The client side of a very basic Twitter-/Instagram-like social network, built with MongoDB, Expres, React and Node.</p>
                 <div className="d-flex justify-content-between align-items-center">
@@ -209,7 +209,7 @@ const Projects = () => {
           </div>
           <div className="col">
             <div className="card shadow-sm">
-            <img className="projects__image" src={MernSocialNetworkServer} alt="Vague Music Player Screenshot" />
+            <img className="projects__image" loading="lazy" src={MernSocialNetworkServer} alt="MERN Social Network Server Screenshot" />
               <div className="card-body">
                 <p className="card-text"><strong>MERN Social Network / Server Side</strong>: The server side of a very basic Twitter-/Instagram-like social network, built with MongoDB, Expres, React and Node.</p>
                 <div className="d-flex justify-content-between align-items-center">
@@ -222,7 +222,7 @@ const Projects = () => {
           </div>
           <div className="col">
             <div className="card shadow-sm">
-            <img className="projects__image" src={MernSocialNetworkDeployed} alt="Vague Music Player Screenshot" />
+            <img className="projects__image" loading="lazy" src={MernSocialNetworkDeployed} alt="Deployed MERN Social Network Screenshot" />
               <div className="card-body">
                 <p className="card-text"><strong>MERN Social Network / Deployed App</strong>: Server side and client side deployed on a Droplet on Digital Ocean. Registering is disabled, because this is not really intended to be used at the moment.</p>
                 <div className="d-flex justify-content-between align-items-center">
