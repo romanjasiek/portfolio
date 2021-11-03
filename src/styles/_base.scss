@@ -10,6 +10,7 @@
 }
 
 html {
+    overflow-x: hidden;
     font-family: 'Jost', sans-serif;
     font-size: 100%;
 
@@ -26,6 +27,11 @@ html {
     @media (max-width: $breakpoint-xxs) {
         font-size: 75%;
     }
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
 }
 
 input,

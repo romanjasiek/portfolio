@@ -4,7 +4,7 @@ This Portfolio is a React re-creation of my previous Portfolio (`GitHub page`: h
 
 All in all I spend `100+ hours` in building it.
 
-`Version: 0.4.4`
+`Version: 0.5.3`
 
 ## What I did here:
 
@@ -18,7 +18,7 @@ Well, this is the result so far.
 
 ## What I still have to do here:
 
-- Redo the `lightbox`
+- ~~Redo the `lightbox`~~
 - More `mobile optimizations`
 - ~~Fixing the `sidebar navigation`~~
 - ~~Adding something to `receive emails` even if hosted on GitHub Pages~~

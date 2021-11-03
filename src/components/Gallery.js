@@ -27,46 +27,46 @@ const Gallery = () => {
 
             <div className="gallery__list">
                 <div className="gallery__list-item gallery__list-item--first">
-                    <img className="gallery__list-item-image" src={Agadir} alt="Agadir" />
+                    <img loading="lazy" className="gallery__list-item-image" src={Agadir} alt="Agadir" />
                 </div>
                 <div className="gallery__list-item" href="#gallery">
-                    <img className="gallery__list-item-image" src={Barcelona} alt="Barcelona" />
+                    <img loading="lazy" className="gallery__list-item-image" src={Barcelona} alt="Barcelona" />
                 </div>
                 <div className="gallery__list-item" href="#gallery">
-                    <img className="gallery__list-item-image" src={Chimp} alt="Chimp" />
+                    <img loading="lazy" className="gallery__list-item-image" src={Chimp} alt="Chimp" />
                 </div>
                 <div className="gallery__list-item" href="#gallery">
-                    <img className="gallery__list-item-image" src={CruiseShips} alt="Cruise Ships" />
+                    <img loading="lazy" className="gallery__list-item-image" src={CruiseShips} alt="Cruise Ships" />
                 </div>
                 <div className="gallery__list-item" href="#gallery">
-                    <img className="gallery__list-item-image" src={Lanzarote} alt="Lanzarote" />
+                    <img loading="lazy" className="gallery__list-item-image" src={Lanzarote} alt="Lanzarote" />
                 </div>
                 <div className="gallery__list-item" href="#gallery">
-                    <img className="gallery__list-item-image" src={Oslo} alt="Oslo" />
+                    <img loading="lazy" className="gallery__list-item-image" src={Oslo} alt="Oslo" />
                 </div>
                 <div className="gallery__list-item" href="#gallery">
-                    <img className="gallery__list-item-image" src={VnvNation} alt="VNV Nation" />
+                    <img loading="lazy" className="gallery__list-item-image" src={VnvNation} alt="VNV Nation" />
                 </div>
                 <div className="gallery__list-item">
-                    <img className="gallery__list-item-image" src={Agadir2} alt="Agadir" />
+                    <img loading="lazy" className="gallery__list-item-image" src={Agadir2} alt="Agadir" />
                 </div>
                 <div className="gallery__list-item">
-                    <img className="gallery__list-item-image" src={Cannes} alt="Cannes" />
+                    <img loading="lazy" className="gallery__list-item-image" src={Cannes} alt="Cannes" />
                 </div>
                 <div className="gallery__list-item">
-                    <img className="gallery__list-item-image" src={Corsica} alt="Corsica" />
+                    <img loading="lazy" className="gallery__list-item-image" src={Corsica} alt="Corsica" />
                 </div>
                 <div className="gallery__list-item">
-                    <img className="gallery__list-item-image" src={Monkeys} alt="Monkeys" />
+                    <img loading="lazy" className="gallery__list-item-image" src={Monkeys} alt="Monkeys" />
                 </div>
                 <div className="gallery__list-item">
-                    <img className="gallery__list-item-image" src={Ocean} alt="Ocean" />
+                    <img loading="lazy" className="gallery__list-item-image" src={Ocean} alt="Ocean" />
                 </div>
                 <div className="gallery__list-item">
-                    <img className="gallery__list-item-image" src={VaticanCity} alt="Vatican City" />
+                    <img loading="lazy" className="gallery__list-item-image" src={VaticanCity} alt="Vatican City" />
                 </div>
                 <div className="gallery__list-item gallery__list-item--last">
-                    <img className="gallery__list-item-image" src={Wismar} alt="Wismar" />
+                    <img loading="lazy" className="gallery__list-item-image" src={Wismar} alt="Wismar" />
                 </div>
             </div>
         </div>
