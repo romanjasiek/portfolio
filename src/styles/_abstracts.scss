@@ -21,7 +21,7 @@ $breakpoint-xxs: 25em!default;
 @media (max-width: $breakpoint-md) {}
 
 /* Between 769 and 991 */
-@media (min-width: $breakpoint-nearly_md) and (max-width: $breakpoint-nearly_md) {}
+@media (min-width: $breakpoint-nearly_md) and (max-width: $breakpoint-nearly_above_md) {}
 
 /* 768px or less **/
 @media (max-width: $breakpoint-sm) {}
