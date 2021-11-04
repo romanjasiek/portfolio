@@ -58,9 +58,10 @@
   }
 
   @media (min-width: $breakpoint_nearly_md) and (max-width: $breakpoint_nearly_above_md) {
-    bottom: -3rem;
-    background-size: cover;
-    background-position: center top;
+    bottom: 3rem;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% auto;
   }
 
   @media (max-width: $breakpoint-md) {
