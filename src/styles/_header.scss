@@ -212,6 +212,10 @@
   background-repeat: no-repeat;
   background-position: center 100%;
   background-size: 100vw 10vw;
+
+  @media (min-width: $breakpoint-nearly_md) and (max-width: $breakpoint-nearly_above_md) {
+    height: 3vh;
+  }
 }
 
 .navigation__list-item {
