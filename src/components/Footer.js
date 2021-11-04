@@ -90,12 +90,12 @@ const Footer = () => {
                 <li>
                     <a className="footer__footer-link" href="#credits-modal"><FontAwesomeIcon icon={faInfoCircle}/>&nbsp;License / Credits</a>
                 </li>
-                <li>
+                {/* <li>
                     <a className="footer__footer-link" href="#"><FontAwesomeIcon icon={faUserSecret}/>&nbsp;Privacy</a>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                     <a className="footer__footer-link" href="#"><FontAwesomeIcon icon={faFileContract}/>&nbsp;Legal Notes</a>
-                </li>
+                </li> */}
                 <li><a className="footer__footer-link" href="https://www.linkedin.com/in/romanjasiek/"><FontAwesomeIcon icon={faLinkedin}/>&nbsp;LinkedIn</a></li>
                 <li><a className="footer__footer-link" href="https://github.com/romanjasiek"><FontAwesomeIcon icon={faGithub}/>&nbsp;GitHub</a></li>
                 <li className="footer__footer-link">Made in 2021 with <FontAwesomeIcon icon={faHeart}/> and <FontAwesomeIcon icon={faCoffee}/> in Magdeburg</li>
