@@ -4,7 +4,7 @@ import CurriculumVitae from "../assets/cv/Roman-Jasiek_CV_EN.pdf";
 export default function SideNavbarCategories({ isOpen }) {
   return (
     <ul className="SideNavbarCategories" style={{ right: isOpen ? 0 : -1000 }}>
-      <li><a className="navigation__list-item-link-sidebar" href="#">Home</a></li>
+      <li><a className="navigation__list-item-link-sidebar" href="#home">Home</a></li>
       <li><a className="navigation__list-item-link-sidebar" href="#usedtechnologies">Used Technologies</a></li>
       <li><a className="navigation__list-item-link-sidebar" href="#galleries">Reflections</a></li>
       <li><a className="navigation__list-item-link-sidebar" href="#aboutme">About Me</a></li>

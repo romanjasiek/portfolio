@@ -5,6 +5,7 @@
 @use "button";
 @use "contactmodal";
 @use "container";
+@use "credits";
 @use "footer";
 @use "fonts";
 @use "form";
@@ -20,6 +21,7 @@
 @use "skills";
 @use "story";
 @use "technologies";
+@use "thanks";
 
 html {
   scroll-behavior: smooth;

@@ -15,6 +15,7 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 import ContactModal from './components/ContactModal';
 import Sidenav from './components/Sidenav';
+import CreditsModal from './components/Credits';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Projects />
         <Footer />
         <ContactModal />
+        <CreditsModal />
         <Sidenav />
       </SimpleReactLightbox>
     </div>

@@ -88,7 +88,7 @@ const Footer = () => {
         <footer className="footer__footer">
             <ul className="footer__footer-list">
                 <li>
-                    <a className="footer__footer-link" href="#"><FontAwesomeIcon icon={faInfoCircle}/>&nbsp;License</a>
+                    <a className="footer__footer-link" href="#credits-modal"><FontAwesomeIcon icon={faInfoCircle}/>&nbsp;License / Credits</a>
                 </li>
                 <li>
                     <a className="footer__footer-link" href="#"><FontAwesomeIcon icon={faUserSecret}/>&nbsp;Privacy</a>

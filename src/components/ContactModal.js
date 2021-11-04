@@ -1,12 +1,6 @@
 import React from 'react';
-import { useForm, ValidationError } from '@formspree/react';
 
 const ContactModal = () => {
-
-    // const [state, handleSubmit] = useForm("xrgrdvvj");
-    // if (state.succeeded) {
-    //     return <p>Thanks for the message!</p>;
-    // }
 
     return(
         <>
@@ -22,20 +16,10 @@ const ContactModal = () => {
                 </div>
                 <div className="form__group">
                     <input type="email" name="email" className="form__input" id="contact-modal-email" placeholder="E-Mail" autoComplete="new-password" />
-                    {/* <ValidationError 
-                        prefix="Email" 
-                        field="contact-modal-email"
-                        errors={state.errors}
-                    /> */}
                     <label className="form__label" htmlFor="contact-modal-email">E-Mail</label>
                 </div>
                 <div className="form__group">
                     <textarea name="message" className="form__textarea" id="contact-modal-message" placeholder="Message"></textarea>
-                    {/* <ValidationError 
-                        prefix="Message" 
-                        field="contact-modal-message"
-                        errors={state.errors}
-                    /> */}
                     <label className="form__label" htmlFor="contact-modal-message">Message</label>
                 </div>
                 </div>
