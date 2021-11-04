@@ -99,13 +99,17 @@
   height: 39vw;
   background-image: url("../assets/background_transparent.png");
 
-  // @media (max-width: $breakpoint-sm) {
-  //   display: none;
-  // }
+  @media (min-width: $breakpoint_nearly_md) and (max-width: $breakpoint_nearly_above_md) {
+    display: none;
+  }
 
-  // @media (max-width: $breakpoint-xs) {
-  //   display: none;
-  // }
+  @media (max-width: $breakpoint-sm) {
+    display: none;
+  }
+
+  @media (max-width: $breakpoint-xs) {
+    display: none;
+  }
 }
 
 .header__heading-container {
@@ -129,14 +133,17 @@
 
   @media (max-width: $breakpoint-md) {
     font-size: 5rem;
+    text-shadow: none;
   }
 
   @media (max-width: $breakpoint-sm) {
     font-size: 3rem;
+    text-shadow: none;
   }
 
   @media (max-width: $breakpoint-xs) {
     font-size: 2.5rem;
+    text-shadow: none
   }
 }
 @keyframes header__heading-main-font-weight {
@@ -213,13 +220,6 @@
   background-repeat: no-repeat;
   background-position: center 100%;
   background-size: 100vw 10vw;
-
-  // @media (min-width: $breakpoint-nearly_md) and (max-width: $breakpoint-nearly_above_md) {
-  //   height: -5vw;
-  //   background-repeat: no-repeat;
-  //   background-position: center 100%;
-  //   background-size: 100vw -5vw;
-  // }
 }
 
 .navigation__list-item {
