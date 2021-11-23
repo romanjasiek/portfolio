@@ -19,10 +19,10 @@ const Story = () => {
             <h3 className="story__heading">Additional Infos</h3>
                 <div className="story__desc">
                     <p>To be honest: there is still a lot of work to be done here.</p>
-                    <p>A bunch of things are still non functional, mobile optimization needs to be improvend and so on.</p>
+                    <p>Some things are still non functional in the way I want them to be, mobile optimization needs to be improvend and so on.</p>
                     <p>But I decided to keep it that way for now.</p>
                     <p>Why?</p>
-                    <p>Because I'm still learning. Everything you find what is not perfect right now is something I still need to learn more about.</p>
+                    <p>Because I'm still learning. Everything you find what is not perfect right now is something I still need and want to learn more about.</p>
                     <p></p>
                 </div>
                 <div className="story__contact">

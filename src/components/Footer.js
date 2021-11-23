@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInfoCircle, faUserSecret, faFileContract, faCoffee, faHeart } from '@fortawesome/free-solid-svg-icons';
+import { faInfoCircle, faCoffee, faHeart } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import CurriculumVitae from "../assets/cv/Roman-Jasiek_CV_EN.pdf";
 
