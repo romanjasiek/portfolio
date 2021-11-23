@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0cad7e70.chunk.css",
-    "main.js": "/portfolio/static/js/main.6523f08d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6523f08d.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.1c776da4.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1c776da4.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.37da8305.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.37da8305.js.map",
     "static/js/2.2f53bb58.chunk.js": "/portfolio/static/js/2.2f53bb58.chunk.js",
@@ -28,12 +28,14 @@
     "static/media/chimps.389d96f3.jpeg": "/portfolio/static/media/chimps.389d96f3.jpeg",
     "static/media/corsica.a26a3794.jpeg": "/portfolio/static/media/corsica.a26a3794.jpeg",
     "static/media/cruiseships.5e04c538.jpeg": "/portfolio/static/media/cruiseships.5e04c538.jpeg",
+    "static/media/expansetracker.45453149.jpg": "/portfolio/static/media/expansetracker.45453149.jpg",
     "static/media/fieldsofthenephilim.4ae01fb3.jpeg": "/portfolio/static/media/fieldsofthenephilim.4ae01fb3.jpeg",
     "static/media/guidinglight.214c1697.jpg": "/portfolio/static/media/guidinglight.214c1697.jpg",
     "static/media/lanzarote.0c415287.jpeg": "/portfolio/static/media/lanzarote.0c415287.jpeg",
     "static/media/loop.72369b58.ogv": "/portfolio/static/media/loop.72369b58.ogv",
     "static/media/loop.b412c43f.webm": "/portfolio/static/media/loop.b412c43f.webm",
     "static/media/loop.bced5b1c.mp4": "/portfolio/static/media/loop.bced5b1c.mp4",
+    "static/media/mahlzeit.9a23b374.jpg": "/portfolio/static/media/mahlzeit.9a23b374.jpg",
     "static/media/mernsocialnetworkclient.d3ac3121.jpg": "/portfolio/static/media/mernsocialnetworkclient.d3ac3121.jpg",
     "static/media/mernsocialnetworkdeployedapp.2aa9992f.jpg": "/portfolio/static/media/mernsocialnetworkdeployedapp.2aa9992f.jpg",
     "static/media/mernsocialnetworkserver.d2cad563.jpg": "/portfolio/static/media/mernsocialnetworkserver.d2cad563.jpg",
@@ -45,7 +47,6 @@
     "static/media/photoproject.facce097.jpg": "/portfolio/static/media/photoproject.facce097.jpg",
     "static/media/pirplehomework.fcaff3ed.jpg": "/portfolio/static/media/pirplehomework.fcaff3ed.jpg",
     "static/media/portfolio.7b1b5caf.jpg": "/portfolio/static/media/portfolio.7b1b5caf.jpg",
-    "static/media/react.260a9a09.jpg": "/portfolio/static/media/react.260a9a09.jpg",
     "static/media/rj.ff5f6cec.jpg": "/portfolio/static/media/rj.ff5f6cec.jpg",
     "static/media/rj2.bd008c76.jpg": "/portfolio/static/media/rj2.bd008c76.jpg",
     "static/media/rj3.618d1451.jpg": "/portfolio/static/media/rj3.618d1451.jpg",
@@ -54,7 +55,6 @@
     "static/media/skill_card1.129dcd3f.jpeg": "/portfolio/static/media/skill_card1.129dcd3f.jpeg",
     "static/media/skill_card2.7e578d63.jpeg": "/portfolio/static/media/skill_card2.7e578d63.jpeg",
     "static/media/skill_card3.39d2ca3d.jpeg": "/portfolio/static/media/skill_card3.39d2ca3d.jpeg",
-    "static/media/tobecontinued.205fffe3.jpg": "/portfolio/static/media/tobecontinued.205fffe3.jpg",
     "static/media/vaguemusicplayer.5c414644.jpg": "/portfolio/static/media/vaguemusicplayer.5c414644.jpg",
     "static/media/vaticancity.533cf7e4.jpeg": "/portfolio/static/media/vaticancity.533cf7e4.jpeg",
     "static/media/vnvnation.a08bb8c5.jpeg": "/portfolio/static/media/vnvnation.a08bb8c5.jpeg",
@@ -64,6 +64,6 @@
     "static/js/runtime-main.37da8305.js",
     "static/js/2.2f53bb58.chunk.js",
     "static/css/main.0cad7e70.chunk.css",
-    "static/js/main.6523f08d.chunk.js"
+    "static/js/main.1c776da4.chunk.js"
   ]
 }
