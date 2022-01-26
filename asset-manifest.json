@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.269924e3.chunk.css",
-    "main.js": "/static/js/main.1c776da4.chunk.js",
-    "main.js.map": "/static/js/main.1c776da4.chunk.js.map",
+    "main.js": "/static/js/main.27003a01.chunk.js",
+    "main.js.map": "/static/js/main.27003a01.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
     "runtime-main.js.map": "/static/js/runtime-main.f027f2bf.js.map",
     "static/js/2.2f53bb58.chunk.js": "/static/js/2.2f53bb58.chunk.js",
@@ -11,7 +11,7 @@
     "static/css/main.269924e3.chunk.css.map": "/static/css/main.269924e3.chunk.css.map",
     "static/js/2.2f53bb58.chunk.js.LICENSE.txt": "/static/js/2.2f53bb58.chunk.js.LICENSE.txt",
     "static/media/app.scss": "/static/media/modal_bg.e6caae08.jpeg",
-    "static/media/Roman-Jasiek_CV_EN.a4ce2a96.pdf": "/static/media/Roman-Jasiek_CV_EN.a4ce2a96.pdf",
+    "static/media/Roman-Jasiek_CV_EN.573d9c8b.pdf": "/static/media/Roman-Jasiek_CV_EN.573d9c8b.pdf",
     "static/media/aberfoyle.faf1b919.jpeg": "/static/media/aberfoyle.faf1b919.jpeg",
     "static/media/agadir.ad0d4165.jpeg": "/static/media/agadir.ad0d4165.jpeg",
     "static/media/agadir2.0be0f964.jpeg": "/static/media/agadir2.0be0f964.jpeg",
@@ -31,6 +31,7 @@
     "static/media/expansetracker.45453149.jpg": "/static/media/expansetracker.45453149.jpg",
     "static/media/fieldsofthenephilim.4ae01fb3.jpeg": "/static/media/fieldsofthenephilim.4ae01fb3.jpeg",
     "static/media/guidinglight.214c1697.jpg": "/static/media/guidinglight.214c1697.jpg",
+    "static/media/imperialsupplies.fdbad90b.jpg": "/static/media/imperialsupplies.fdbad90b.jpg",
     "static/media/lanzarote.0c415287.jpeg": "/static/media/lanzarote.0c415287.jpeg",
     "static/media/loop.72369b58.ogv": "/static/media/loop.72369b58.ogv",
     "static/media/loop.b412c43f.webm": "/static/media/loop.b412c43f.webm",
@@ -55,6 +56,7 @@
     "static/media/skill_card1.129dcd3f.jpeg": "/static/media/skill_card1.129dcd3f.jpeg",
     "static/media/skill_card2.7e578d63.jpeg": "/static/media/skill_card2.7e578d63.jpeg",
     "static/media/skill_card3.39d2ca3d.jpeg": "/static/media/skill_card3.39d2ca3d.jpeg",
+    "static/media/tobecontinued.205fffe3.jpg": "/static/media/tobecontinued.205fffe3.jpg",
     "static/media/vaguemusicplayer.5c414644.jpg": "/static/media/vaguemusicplayer.5c414644.jpg",
     "static/media/vaticancity.533cf7e4.jpeg": "/static/media/vaticancity.533cf7e4.jpeg",
     "static/media/vnvnation.a08bb8c5.jpeg": "/static/media/vnvnation.a08bb8c5.jpeg",
@@ -64,6 +66,6 @@
     "static/js/runtime-main.f027f2bf.js",
     "static/js/2.2f53bb58.chunk.js",
     "static/css/main.269924e3.chunk.css",
-    "static/js/main.1c776da4.chunk.js"
+    "static/js/main.27003a01.chunk.js"
   ]
 }
