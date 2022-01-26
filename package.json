@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
-  "version": "1.2.4",
-  "homepage": "https://romanjasiek.github.io/portfolio",
+  "version": "1.2.5",
+  "homepage": "https://romanjasiek.de",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.2.4",
