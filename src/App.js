@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Outlet } from 'react-router-dom';
 import './styles/app.scss';
 import SimpleReactLightbox from "simple-react-lightbox";
 
@@ -16,10 +17,13 @@ import Footer from './components/Footer';
 import ContactModal from './components/ContactModal';
 import Sidenav from './components/Sidenav';
 import CreditsModal from './components/Credits';
+import Impressum from './components/Impressum';
+import Datenschutz from './components/Datenschutz';
 
 function App() {
   return (
     <div className="App">
+      <Router>
       <SimpleReactLightbox>
         <Header />
         <Motivation />
@@ -31,11 +35,17 @@ function App() {
         <AboutMe />
         <MoreAboutMe />
         <Projects />
+        <Routes>
+            <Route path='/' element={<Outlet />} />
+            <Route path='datenschutz' element={<Datenschutz />} />
+            <Route path='impressum' element={<Impressum />} />
+          </Routes>
         <Footer />
         <ContactModal />
         <CreditsModal />
         <Sidenav />
       </SimpleReactLightbox>
+      </Router>
     </div>
   );
 }

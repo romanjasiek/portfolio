@@ -153,11 +153,7 @@ const Projects = () => {
                     />
                     <div className='card-body'>
                       <p className='card-text'>
-                        <strong>Schottenschulle</strong>: The goal was to
-                        replace an old HTML-based website with an easy to manage
-                        Wordpress Installation. Tasks included installation,
-                        theme customization, a quick introduction in how to use
-                        Wordpress, ...
+                        <strong>Schottenschulle</strong>: After replacing a simple HTML website with a WordPress website, in the beginning of 2022 I did a complete rebranding and redeveloped schottenschulle.de with React. I used this portfolio as a starting point for a completely new user experience.
                       </p>
                       <div className='d-flex justify-content-between align-items-center'>
                         <div className='btn-group'>
