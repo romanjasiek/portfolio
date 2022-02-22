@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.269924e3.chunk.css",
-    "main.js": "/static/js/main.27003a01.chunk.js",
-    "main.js.map": "/static/js/main.27003a01.chunk.js.map",
+    "main.css": "/static/css/main.7f12c9eb.chunk.css",
+    "main.js": "/static/js/main.9ad7d17b.chunk.js",
+    "main.js.map": "/static/js/main.9ad7d17b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
     "runtime-main.js.map": "/static/js/runtime-main.f027f2bf.js.map",
-    "static/js/2.2f53bb58.chunk.js": "/static/js/2.2f53bb58.chunk.js",
-    "static/js/2.2f53bb58.chunk.js.map": "/static/js/2.2f53bb58.chunk.js.map",
+    "static/js/2.3aa35bef.chunk.js": "/static/js/2.3aa35bef.chunk.js",
+    "static/js/2.3aa35bef.chunk.js.map": "/static/js/2.3aa35bef.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.269924e3.chunk.css.map": "/static/css/main.269924e3.chunk.css.map",
-    "static/js/2.2f53bb58.chunk.js.LICENSE.txt": "/static/js/2.2f53bb58.chunk.js.LICENSE.txt",
+    "static/css/main.7f12c9eb.chunk.css.map": "/static/css/main.7f12c9eb.chunk.css.map",
+    "static/js/2.3aa35bef.chunk.js.LICENSE.txt": "/static/js/2.3aa35bef.chunk.js.LICENSE.txt",
     "static/media/app.scss": "/static/media/modal_bg.e6caae08.jpeg",
     "static/media/Roman-Jasiek_CV_EN.573d9c8b.pdf": "/static/media/Roman-Jasiek_CV_EN.573d9c8b.pdf",
     "static/media/aberfoyle.faf1b919.jpeg": "/static/media/aberfoyle.faf1b919.jpeg",
@@ -52,7 +52,7 @@
     "static/media/rj2.bd008c76.jpg": "/static/media/rj2.bd008c76.jpg",
     "static/media/rj3.618d1451.jpg": "/static/media/rj3.618d1451.jpg",
     "static/media/rj4.28bda125.jpg": "/static/media/rj4.28bda125.jpg",
-    "static/media/schottenschulle.ad1face0.jpg": "/static/media/schottenschulle.ad1face0.jpg",
+    "static/media/schottenschulle.a00e31fa.jpg": "/static/media/schottenschulle.a00e31fa.jpg",
     "static/media/skill_card1.129dcd3f.jpeg": "/static/media/skill_card1.129dcd3f.jpeg",
     "static/media/skill_card2.7e578d63.jpeg": "/static/media/skill_card2.7e578d63.jpeg",
     "static/media/skill_card3.39d2ca3d.jpeg": "/static/media/skill_card3.39d2ca3d.jpeg",
@@ -64,8 +64,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f027f2bf.js",
-    "static/js/2.2f53bb58.chunk.js",
-    "static/css/main.269924e3.chunk.css",
-    "static/js/main.27003a01.chunk.js"
+    "static/js/2.3aa35bef.chunk.js",
+    "static/css/main.7f12c9eb.chunk.css",
+    "static/js/main.9ad7d17b.chunk.js"
   ]
 }
